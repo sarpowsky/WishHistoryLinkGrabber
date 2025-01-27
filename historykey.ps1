@@ -117,4 +117,4 @@ $wishHistoryUrl = $link
 Write-Host $wishHistoryUrl
 Set-Clipboard -Value $wishHistoryUrl
 Write-Host "Link copied to clipboard, paste it into the url bar" -ForegroundColor Green
-Write-Host "Thanks for using the app!" -ForegroundColor Pink
+Write-Host "Thanks for using the app!" -ForegroundColor Magenta
