@@ -14,6 +14,6 @@ Follow the steps below to extract your Genshin Impact wish history link using Po
 5. Copy the following command and paste it into the PowerShell window:  
 
    ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/sarpowsky/historylinkforGenshin/main/historykey.ps1'))} global"
+   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/sarpowsky/WishHistoryLinkGrabber/refs/heads/main/historykey.ps1'))} global"
 6. Hit ENTER to execute the command. The wish history link will be automatically copied to your clipboard.
 7. Paste the copied link into the required field.
